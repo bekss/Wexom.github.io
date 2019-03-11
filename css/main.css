@@ -1,0 +1,561 @@
+body{
+	background-color:white;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+.head{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 1024px;
+	background: #4a4843;
+	background: url(../image/berg.jpg) no-repeat center bottom;
+	-webkit-background-size:100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: cover; /* Opera 9.6+ */
+    background-size: cover;
+}
+.menu{
+	margin-top: 72px;
+}
+.menu__cart{
+	float: left;
+	margin-left: 38px;
+	margin-right: 38px;
+}
+.link{
+	margin-left: 28px;
+}
+
+.men{
+	margin-left: 100px;
+	margin-top: 62px;
+}
+.header{
+	margin-top: 36px;
+}
+
+
+/*2 меню*/
+.title__main{
+	margin-top: 310px;
+	margin-bottom: 25px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+}
+.title__under{
+	margin-bottom: 30px;
+	padding:0px 4px 0 4px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 52px;
+}
+.title__text{
+	margin: 55px auto;
+	margin-top: 21px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
+.image{
+	margin-top: 0px;
+	margin-bottom: 28px;
+}
+.slider{
+	margin-top: 88px;
+	margin-bottom: 28px;
+	opacity: 0.9;
+}
+.slider:hover{
+	margin-top: 0px;
+	transition: 0.9s ease;
+	opacity: 2;
+}
+.off:hover{
+	margin-top: 55px;
+	transition: all 0.9s ease;
+}
+.off p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+.mini__content{
+	
+	height: 300px; 
+	margin: 0;
+	margin-bottom: 80px;
+}
+/*.off a::before{
+	content: '';
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	width: 0%;
+	height: 2px;
+	transition: 0.5s ease;
+}
+.off a:hover:before{
+	width: 100%;
+}*/
+.off a{
+	background-color: black;
+	color:black;
+}
+.btnn button:hover{
+	transition: all 0.5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+.main{
+	margin-top: 62px;
+	margin-left: 65px;
+}
+.nav__item{
+	margin-top: 76px;
+	margin-left: 200px;
+
+}
+.image{
+	float: left;
+	display: inline-block;
+}
+.offer{
+	display: inline-block;
+}
+.offer h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 34px;	
+}
+.navbar__menu{
+	margin-top: 72px;
+	margin-right: 15px;
+}
+.cart{
+	opacity: 0.8;
+}
+.search{
+	opacity: 0.8;
+}
+.cart:hover{
+	opacity: 1;
+	border-bottom: 2px solid red;
+	font-size: 20px;
+	padding-top:5px;
+	transition: 0.3s ease;
+}
+.search:hover{
+	opacity: 1;
+	border-bottom: 2px solid red;
+	font-size: 20px;
+	padding-top:5px;
+	transition: 0.3s ease;
+}
+.get{
+	background: #998675;
+	border-radius: none;
+	border: none;
+}
+button{
+	box-shadow: 0.8px -1px 20px rgba(0,0,0,0.25);
+}
+.link{
+	margin-left: 15px;
+}
+.titles{
+	margin-bottom: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+}
+/*картинки*/
+.theme{
+
+}
+/*.center{
+	position: relative;
+	right: 280px;
+
+}
+.right{
+	position: relative;
+	left: 54px;
+	top: 82px;
+	
+}
+.left{
+	position: relative\;
+	right: 50px;
+	top: 82px;
+}*/
+
+.head_menu li{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+.idea h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+}
+.idea p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+.center{
+	position: relative;
+	right:-5px;
+
+}
+.right{
+	position: relative;
+	left: 10px;
+	top: 72px;
+	
+}
+.left{
+	position: relative;
+	right: -1px;
+	top: 82px;
+}
+
+.big__text{
+	margin-top: 49px;
+	height: 150px;
+	color: white;
+	width: 50%;
+	float: left;
+	font-family: 'Raleway', sans-serif;
+	font-size: 	28px;
+
+}
+.big__text p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+.small_button{
+	display: block;
+	float: left;
+	width: 20%;
+	margin-top: 60px ;
+	margin-left: 200px;
+	border-radius: 0px;
+	border: 0px;
+	
+}
+.small_button button:hover{
+	color:white;
+	background: #928575;
+	width: 300px;
+	height: 50px;
+	transition: all 0.5s ease;
+}
+.buttons button{
+	margin-left: 10px;
+	margin-bottom: 41px;
+
+}
+.buttons button:hover{
+	background: #938575;
+	color: white;
+	transition: all 0.5s ease;
+}
+.callery__head h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+}
+.callery__head p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
+/*Картинки 2 меню картинок*/
+.image__for{
+	
+	float: left;
+	margin: 25px;
+	border-radius: 5px;
+}
+
+.image__for a{
+	text-decoration: none;
+
+	display: block;
+
+}
+.offer_imag{
+	margin: 0px;
+	padding-top: 30px;
+}
+.offer_im{
+	
+	margin: 0px;
+	margin-top: 15px;
+
+}
+
+.image_text h3{
+	color: #c7b299;
+}
+.image_text h4{
+	padding-bottom: 0px;
+	color: #d1d1d1;
+}
+.image_text:hover{
+	background: #362f2d;
+	color: white;
+	transition: all 0.5s ease;
+	
+}
+.image_text h4{
+		color: #bda992;
+	}
+.images{
+	margin-left: 15px;
+}
+.arrow{
+	width: 60px;
+	height: 30px;
+	position: relative;
+	top: 265px;
+	display: none;
+}
+.button_for{
+	margin-bottom: 80px;
+	margin-top: 40px;
+}
+.button_for button {
+	
+	background-color: white;
+}
+
+.button_for button:hover{
+	background: #998675;
+	color: white;
+}
+
+/*video*/
+
+.video_image{
+	box-sizing: border-box;
+}
+.video_play{
+	position: relative;
+	top: -325px;
+	left: 635px;
+	padding-bottom: 59px;
+}
+.video_play:hover{
+	cursor: pointer;
+}
+.texts{
+	position: relative;
+	top: -335px;
+	color:white;	
+}
+.texts h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+
+/* foto*/
+.foto_text{
+	padding-top: 195px;
+}
+.foto_text h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+.foto_text h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+.text__in{
+	padding-right: 55px;
+	padding-bottom: 58px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+.foto_text h2{
+		font-size: 30px;
+}
+.foto_text h3{
+	font-size: 16px;
+	padding-left: 45px;
+}
+.foto_text h3:hover{
+		margin-left: 95px;
+		transition: 0.9s ease;
+		cursor: pointer;
+
+}
+.icon{
+	background: #c0b199;
+	border-radius: 10px;
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+}
+
+/*statistic*************************************************************/
+.statitics{
+	margin-top: 85px;
+	background: #3f3128;
+
+}
+.block{
+	margin-top: 45px;
+	display: block;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: white;
+
+}
+.block img,h1{
+	margin-left: 45px;
+}
+.posts{
+	padding-top: 82px;
+	padding-bottom: 30px;
+	font-family: 'Raleway', sans-serif;
+}
+/*.for_image a{
+	text-decoration: none;
+	color:black;
+}
+*/
+
+.icons{
+	width: 100%;
+	height: 490px;	
+	background: url(../image/fonnn.jpg) no-repeat center bottom;
+	-webkit-background-size:100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: cover; /* Opera 9.6+ */
+    background-size: cover;
+}
+.icon_image{
+	float: left;
+	padding-top: 185px;
+	margin-left: 85px;
+}
+.icon_footer{
+	
+
+	
+}
+.icon_footer img{
+	float: left;
+	margin-right: 15px;
+	
+}
+.text_icon{
+	margin-left: 35px;
+	margin: 5px;
+	font-size: 34px;
+	color: white;
+	display: block;
+	float: left;	
+	font-family: 'Raleway', sans-serif;
+	font-size: 34px;	
+}
+.footer{
+	color: #555555;
+	margin-left: 25px;
+	width:290px;
+	height:480px;
+	margin-top: 82px;
+	float: left;
+
+}
+.long__text{
+	color:#555555;
+	margin-top: 90px;
+}
+.icon_footer a{
+	text-decoration: none;
+}
+.icon_footer h4{
+	color: white;
+	margin-top: 100px;	
+}
+.footer_2{
+	color:#555555;
+	margin-left: 25px;
+	height:480px;
+	margin-top: 82px;
+	width: 290px;
+	float: left;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.footer_2 h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+}
+.footer_3{
+	color:#555555;
+	height: 480px;
+	margin-left: 25px;
+	margin-top: 82px;
+	float: left;
+	width: 290px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.footer_3 h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+}
+.footer_4{
+	width: 299px;
+	height: 480px;
+	margin-top: 82px;
+	margin-left: 25px;
+	float: left;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.footer_4 h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+}
+.footer_4 img{
+	float: left;
+	display: block;
+}	
+.footer_4 h2{
+	margin-bottom: 25px;
+}
+.footer_4 img {
+	margin: 5px;
+}
+.last__footer{
+	float: left;
+		color:#555555;	
+}
+.last__footer a{
+	text-decoration: none;	
+
+}
+.about{
+	color:#555555;
+	float: left;
+	padding-left: 345px;
+	width: 64%;
+}
+.about a{
+text-decoration: none;
+}
